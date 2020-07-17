@@ -1,0 +1,14 @@
+
+[1mFrom:[0m /mnt/c/Users/walke/Documents/Coding/Flatiron/labs/ruby-advanced-class-methods-lab-onl01-seng-ft-070620/lib/song.rb @ line 52 Song.new_from_filename:
+
+    [1;34m51[0m: [32mdef[0m [1;36mself[0m.[1;34mnew_from_filename[0m(filename)
+ => [1;34m52[0m:   binding.pry
+    [1;34m53[0m:   song_name = filename.gsub([31m[1;31m"[0m[31m.mp3[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31m[1;31m"[0m[31m[0m).split([31m[1;31m"[0m[31m - [1;31m"[0m[31m[0m).pop
+    [1;34m54[0m:   artist_name = filename.split([31m[1;31m"[0m[31m - [1;31m"[0m[31m[0m)[[1;34m0[0m]
+    [1;34m55[0m:   song = [1;36mself[0m.create
+    [1;34m56[0m: 
+    [1;34m57[0m:   song.artist_name = artist_name
+    [1;34m58[0m:   song.name = song_name
+    [1;34m59[0m:   song
+    [1;34m60[0m: [32mend[0m
+
